@@ -36,6 +36,22 @@ body {
   background-color: var(--bg-color);
 }
 
+h1, h2, h3 {
+  font: inherit;
+}
+
+h1 {
+  font: var(--h1);
+}
+
+h2 {
+  font: var(--h2);
+}
+
+h3 {
+  font: var(--h3);
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -45,6 +61,10 @@ a:hover {
   color: var(--brand-color-light);
 }
 
-h1, h2, h3 {
-  font: inherit;
+@media (width >= 80em) {
+  :root {
+    --px-lg: 2rem;
+    --py-base: 1.25rem;
+  }
+
 }
