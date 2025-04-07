@@ -52,6 +52,10 @@ h3 {
   font: var(--h3);
 }
 
+img {
+  max-width: 100%;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -59,6 +63,10 @@ a {
 
 a:hover {
   color: var(--brand-color-light);
+}
+
+main {
+  margin-top: 2.5rem;
 }
 
 @media (width >= 80em) {
