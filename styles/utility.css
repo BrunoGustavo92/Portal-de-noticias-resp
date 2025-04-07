@@ -16,7 +16,18 @@
   display: none;
 }
 
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
 @media (width >= 80em) {
+  #primary {    
+    gap: 0.5rem;
+  }
   .container {
     --max-width: 80rem;
   }
