@@ -32,6 +32,22 @@
   gap: 1rem;
 }
 
+.text-2xl {
+  font: var(--h1);
+}
+
+.text-xl {
+  font: var(--h2);
+}
+
+.text-lg {
+  font: var(--h3);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
+
 @media (width >= 80em) {
   #primary {    
     gap: 0.5rem;
@@ -52,5 +68,9 @@
   .img-cols {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .text-xl {
+    font: var(--h1);
   }
 }
