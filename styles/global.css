@@ -55,6 +55,7 @@ a:hover {
 
 main {
   margin-top: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .content-tag {
@@ -73,6 +74,10 @@ main {
   :root {
     --px-lg: 2rem;
     --py-base: 1.25rem;
+  }
+
+  & main {
+    margin-bottom: 5rem;
   }
 
 }
