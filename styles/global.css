@@ -54,8 +54,8 @@ a:hover {
 }
 
 main {
-  margin-top: 2.5rem;
-  margin-bottom: 2rem;
+  margin-block: 2.5rem;
+  gap: 2rem;
 }
 
 .content-tag {
@@ -77,7 +77,15 @@ main {
   }
 
   & main {
-    margin-bottom: 5rem;
+    row-gap: 5rem;
+    column-gap: 2rem;
+
+    grid-template-columns: 2fr 1.4fr;
+
+    grid-template-areas: 
+    "featured featured"
+    "weekly weekly"
+    "ai aside";
   }
 
 }
