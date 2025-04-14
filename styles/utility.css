@@ -33,7 +33,7 @@
 }
 
 .text-2xl {
-  font: var(--h1);
+  font: var(--h2);
 }
 
 .text-xl {
@@ -69,8 +69,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
-  .text-xl {
+  
+  .text-2xl {
     font: var(--h1);
   }
 }
