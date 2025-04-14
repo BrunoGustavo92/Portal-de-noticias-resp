@@ -1,18 +1,34 @@
+
+
+<p align="center">
 Projeto de uma landing page responsiva de produto desenvolvido durante as aulas na formação FullStack na Rocketseat.
+</p>
 
-Tecnologias   |    Projeto   |    Licença
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-License
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=0F172A&labelColor=1D4ED8">
+</p>
 
+<br>
 
-[Preview do projeto desenvolvido.](https://brunogustavo92.github.io/)
+<p align="center">
+  <img alt="[Preview do projeto desenvolvido.](https://brunogustavo92.github.io/Travelgram-Resp/)" src="./assets/images/portal de noticias resp.png width="100%">
+</p>
 
-🚀 Tecnologias
+## 🚀 Tecnologias
+
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-HTML
-CSS
-Projeto
-Portal de noticias.
+- HTML
+- CSS
+
+## Projeto
+
+Pagina de perfil de viagens.
 
 Esse é um dos desafios práticos da formação FullStack.
